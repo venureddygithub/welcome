@@ -1,7 +1,7 @@
 // Write your code here
-import {component} from 'react'
+import {Component} from 'react'
 
-class Welcome extends component {
+class Welcome extends Component {
   state = {isSubscribe: true}
   buttonAction = () => {
     this.setState(prevState => ({isSubscribe: !prevState.state}))
